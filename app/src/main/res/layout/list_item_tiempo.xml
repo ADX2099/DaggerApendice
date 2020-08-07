@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/litFechaAux"
+        android:text="Fecha: "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/litFecha"
+        android:paddingRight="16dp"
+        android:textColor="@color/colorAccent"
+        android:layout_toRightOf="@id/litFechaAux"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/litTemperaturaAux"
+        android:paddingRight="16dp"
+        android:layout_below="@id/litFecha"
+        android:text="Temperatura: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/litTemperatura"
+        android:paddingRight="16dp"
+        android:layout_below="@id/litFechaAux"
+        android:layout_toRightOf="@id/litTemperaturaAux"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/litHumedadAux"
+        android:paddingRight="16dp"
+        android:text="Humedad"
+        android:layout_toRightOf="@id/litTemperatura"
+        android:layout_below="@id/litFechaAux"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/litHumedad"
+        android:paddingRight="16dp"
+        android:layout_below="@id/litFechaAux"
+        android:layout_toRightOf="@id/litHumedadAux"
+        android:textColor="@color/colorPrimary"/>
+
+
+</RelativeLayout>

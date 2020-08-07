@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dagger2Apendice.iml" filepath="$PROJECT_DIR$/Dagger2Apendice.iml" group="Dagger2Apendice" />
+      <module fileurl="file://$PROJECT_DIR$/app/Dagger2Apendice-app.iml" filepath="$PROJECT_DIR$/app/Dagger2Apendice-app.iml" group="Dagger2Apendice/app" />
+      <module fileurl="file://$PROJECT_DIR$/DaggerAnexo.iml" filepath="$PROJECT_DIR$/DaggerAnexo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
